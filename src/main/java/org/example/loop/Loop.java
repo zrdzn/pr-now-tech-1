@@ -12,6 +12,19 @@ public class Loop {
         tablica[0] = str1;
         tablica[1] = str2;
         tablica[2] = str3;
+        for (String s : tablica) {
+            System.out.println(s);
+        }
+
+        for (int counter = 1; counter < 10; counter++) {
+
+        }
+
+        int counter = 1;
+        while (counter < 10) {
+            System.out.println("help! " + counter);
+            counter++;
+        }
     }
 
 }
