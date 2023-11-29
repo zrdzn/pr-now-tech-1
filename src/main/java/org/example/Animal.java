@@ -9,7 +9,7 @@ public class Animal {
     }
 
     public void speak() {
-        System.out.println("My nmame is " + specie);
+        System.out.println("My name is " + specie);
     }
 
     public void feed(String food) {

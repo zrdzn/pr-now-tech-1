@@ -16,10 +16,6 @@ public class Loop {
             System.out.println(s);
         }
 
-        for (int counter = 1; counter < 10; counter++) {
-
-        }
-
         int counter = 1;
         while (counter < 10) {
             System.out.println("help! " + counter);
