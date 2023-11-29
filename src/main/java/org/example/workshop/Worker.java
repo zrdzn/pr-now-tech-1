@@ -1,4 +1,4 @@
-package org.example;
+package org.example.workshop;
 
 import org.example.workshop.Tool;
 
@@ -18,7 +18,7 @@ public class Worker {
         tools.add(tool2);
 
         for (Tool tool : tools) {
-            System.out.println("Narzedzie: " + tool);
+            System.out.println("Narzedzie: " + tool.toolType);
         }
     }
 
